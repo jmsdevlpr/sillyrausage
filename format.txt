@@ -1,0 +1,8 @@
+THIS FILE IS JUST FOR THE DEV, IGNORE
+
+SillyRausageUpdater.exe = inside of game folder (purpose: checks for updates)
+version.txt (game side) = inside of game folder (purpose: checks for the current version)
+version.txt (repo side) = inside repository (purpose: checks for the current hosted version)
+update_url.txt = inside repository (purpose: checks for the current download link)
+
+GameUpdate.zip (contains game files, SillyRausageUpdater.exe, version.txt (game side, contains the current game version)) = uploaded as a release and then that download link is put into the update_url.txt file
